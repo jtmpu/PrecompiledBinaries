@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "TokenManageCLI/1.0.0": {
+        "dependencies": {
+          "CommandLineParser": "2.6.0",
+          "TokenManage": "1.0.0"
+        },
+        "runtime": {
+          "TokenManageCLI.dll": {}
+        }
+      },
+      "CommandLineParser/2.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
+        }
+      },
+      "TokenManage/1.0.0": {
+        "runtime": {
+          "TokenManage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TokenManageCLI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommandLineParser/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jjJ2Ey2pPY6OeY74Qau2cH+M+pN4kvvSP+kKlDzIZUcJs1oK+QlNjQYnm8HQj2fQa2aZLtwJig4MI0Vbx4YBSA==",
+      "path": "commandlineparser/2.6.0",
+      "hashPath": "commandlineparser.2.6.0.nupkg.sha512"
+    },
+    "TokenManage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
